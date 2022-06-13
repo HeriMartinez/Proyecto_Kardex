@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>DATE</title>
+</head>
+<body>
+        <form class="frm_cita" action="./Date.php" method="post">
+
+            <h1 class="tittle">SIMILARES</h1>
+
+            <label class="lbl">Nombre completo :</label>                
+            <input class="txt" type="text" placeholder="NOMBRE COMPLETO" name="nombre">
+            <br> 
+            <label class="lbl">Edad :</label>
+            <input class="txt" type="number" placeholder="EDAD" name="edad">
+            <br>
+            <label class="lbl">Peso :</label>
+            <input class="txt" type="number" placeholder="PESO" name="peso">
+            <br> 
+            <label class="lbl">Altura :</label>
+            <input class="txt" type="text" placeholder="ALTURA" name="altura">
+            <br>
+            <label class="lbl">Alergias :</label>
+            <input class="txt" type="text" placeholder="ALERGIAS" name="alergias">
+            <br> 
+            <label class="lbl">Tipo de sangre :</label>
+            <input class="txt" type="text" placeholder="TIPO DE SANGRE" name="sangre">
+            <br>
+            <label class="lbl">Día de la cita :</label>
+            <br>
+            <input class="dt" type="date" name="cita">
+            <br>
+            <br>
+            <button class="btn_action" type="submit" name="confirmar">
+                CONFIRMAR CITA
+            </button>       
+        </form>
+</body>
+</html>
